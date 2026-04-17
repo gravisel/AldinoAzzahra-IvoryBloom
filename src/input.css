@@ -11,8 +11,9 @@
     --font-paragraf: "Inter", sans-serif;
     --font-tittle2: "Princess Sofia", cursive;
 
-    --color-mainColor: #9B83A1;
-    --color-secondColor: #944149;
+    --color-mainColor: #264677;
+    --color-secondColor: #358A9E;
+    --color-thirdColor: #FDD130;
 }
 
     /* ::-webkit-scrollbar {
@@ -145,6 +146,16 @@ h3 {
     transform: scale(1);
     filter: blur(0);
   }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(8deg); }
+  50% { transform: rotate(15deg); }
+}
+
+@keyframes wiggle2 {
+  0%, 100% { transform: rotate(7deg); }
+  50% { transform: rotate(18deg); }
 }
 
 /* =====================
